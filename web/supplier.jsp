@@ -90,7 +90,7 @@
                                                 <div class="form-group row">
                                                     <label class="col-sm-3 form-control-label">Name</label>
                                                     <div class="col-sm-9">
-                                                        <input id="name" type="text"	placeholder="name" class="form-control form-control-warning">
+                                                        <input id="name" type="text" onkeypress="validateName()"	placeholder="name" class="form-control form-control-warning">
                                                     </div>
                                                 </div>
                                                 <div class="form-group row">
@@ -108,7 +108,7 @@
                                                 <div class="form-group row">
                                                     <label class="col-sm-3 form-control-label">Contact</label>
                                                     <div class="col-sm-9">
-                                                        <input id="contact" type="text"	placeholder="contact" class="form-control form-control-warning">
+                                                        <input id="contact" type="text" onkeypress="onClickValidationContactNumber()"	placeholder="contact" class="form-control form-control-warning">
                                                     </div>
                                                 </div>
                                                 <div class="form-group row">

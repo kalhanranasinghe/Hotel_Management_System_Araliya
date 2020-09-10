@@ -114,7 +114,7 @@
                                                 <div class="form-group row">
                                                     <label class="col-sm-3 form-control-label">Price</label>
                                                     <div class="col-sm-9">
-                                                        <input id="price" type="text"	placeholder="price" class="form-control form-control-warning">
+                                                        <input id="price" type="text" onkeypress="validateNumber()()"	placeholder="price" class="form-control form-control-warning">
                                                     </div>
                                                 </div>
                                                 <div class="form-group row">

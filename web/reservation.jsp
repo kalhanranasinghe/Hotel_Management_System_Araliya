@@ -110,13 +110,13 @@
                                                 <div class="form-group row">
                                                     <label class="col-sm-3 form-control-label">No of Members</label>
                                                     <div class="col-sm-9">
-                                                        <input id="no_of_members" type="text"	placeholder="no of members" class="form-control form-control-warning">
+                                                        <input id="no_of_members" type="text" onkeypress="onClickValidationContactNumber()"	placeholder="no of members" class="form-control form-control-warning">
                                                     </div>
                                                 </div>
                                                 <div class="form-group row">
                                                     <label class="col-sm-3 form-control-label">Total</label>
                                                     <div class="col-sm-9">
-                                                        <input id="total" type="text"	placeholder="total" class="form-control form-control-warning">
+                                                        <input id="total" type="text" onkeypress="validateNumber()"	placeholder="total" class="form-control form-control-warning">
                                                     </div>
                                                 </div>
                                                 <div class="form-group row">
